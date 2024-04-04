@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Reddit+Mono:wght@500&family=Roboto&display=swap');
+
+body {
+    background-color: #111;
+    color: white;
+    font-family: "Reddit Mono", monospace;
+}
+
+.button {
+    outline: 0;
+    border: 0;
+    width: 10%;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+input.input-field {
+    opacity: 0;
+}
+
+span {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.active {
+    background-color: red;
+}
+
+.ul {
+    
+    border-bottom: 3px solid green;
+    color: green;
+}
+
+.wrong {
+    color: red;
+}
+
+.content{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    padding: 5px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
