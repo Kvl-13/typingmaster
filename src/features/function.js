@@ -68,7 +68,6 @@ export const handleInputChange = (e, charRefs, charIndex, length, wrongChar, set
             let temp = wrongChar;
             temp[charIndex] = "wrong";
             setWrongChar(temp);
-            console.log("error")
             setErrorCount(errorCount + 1);
         }
 
